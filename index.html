@@ -11,24 +11,22 @@
 		<script type="text/javascript">stLight.options({publisher: "61330013-0e01-42ce-bc9d-b535964f6c9a", doNotHash: false, doNotCopy: false, hashAddressBar: false});</script>	
 	</head>
 	<body>
-		<div="page-head">
+		<div id="page-head"> <!-- or change this to a <header> element-->
 			<p><a href="http://pjurquilla.github.io/index.html">BEA Logo</a></p>
-			<div="main_nav">
-				<ul>
-					<li>Home</li>
-					<li><a href="http://pjurquilla.github.io/products.html">Products</a></li>
-					<li>Dashboard</li>
-					<li>News</li>
-					<li>Data Tools</li>
-					<li>Publications & Research</li>
-					<li>About</li>
-					<li>Customer Support</li>
-				</ul>
-			</div>
-			<div="breadcrumb">
+			<ul id="main_nav"> <!-- I unwrapped the div from this element; you could also consider a <nav> tag instead -->
+				<li>Home</li>
+				<li><a href="http://pjurquilla.github.io/products.html">Products</a></li>
+				<li>Dashboard</li>
+				<li>News</li>
+				<li>Data Tools</li>
+				<li>Publications & Research</li>
+				<li>About</li>
+				<li>Customer Support</li>
+			</ul>
+			<div id="breadcrumb">
 				<p>Home > Welcome to BEA.gov</p>
 			</div>
-			<div="share">
+			<div class="share">
 				<span class='st_sharethis' displayText='ShareThis'></span>
 				<span class='st_facebook' displayText='Facebook'></span>
 				<span class='st_twitter' displayText='Tweet'></span>
@@ -36,7 +34,7 @@
 				<span class='st_email' displayText='Email'></span>
 			</div>
 		</div>
-		<div="pei_dashboard">
+		<div class="pei_dashboard">
 			<h2>Primary Economic Indicators</h2>
 				<ul>
 					<li>Gross Domestic Product</li>
@@ -57,12 +55,12 @@
 						</ul>
 				</ul>
 		</div>
-		<div="homepage_feature">
+		<div class="homepage_feature">
 			<h1>BEA Expands Access to Regional API</h1>
 			<img src="http://pjurquilla.github.io/img/hero.png">
 			<p>Developers, your requests have been heard. All regional data from the Bureau of Economic Analysis are now accessible through our application programming interface, or API. <a href="#">Read More</a></p>
 		</div>
-		<div="sidebar">
+		<div class="sidebar">
 			<div="cta1">
 				<h2>Did You Get a BEA Survey?</h2>
 				<p>Lorem ipsum dolor set amin</p>
@@ -79,10 +77,10 @@
 				<a href="#">Search Jobs</a>
 			</div>
 		</div>
-		<div="whats_new">
+		<div class="whats_new">
 		<hr>
 		<h2>What's New on BEA.gov</h2>
-			<div="on_the_blog">
+			<div class="on_the_blog">
 				<h3>On the Blog</h3>
 				<ul>
 					<li>09.03.15 - July Trade Gap is $41.9 Billion</li>
@@ -92,7 +90,7 @@
 					<li>08.14.15 - New Statistics on the Activities of U.S. Multinational Enterprises are Now Available</li>
 				</ul>
 			</div>
-			<div="latest_releases">
+			<div class="latest_releases">
 				<h3>Latest Releases</h3>
 				<ul>
 					<li>09.03.15 - U.S. International Trade in Goods and Services, July 2015</li>
@@ -102,7 +100,7 @@
 					<li>08.05.15 - U.S. International Trade in Goods and Services, June 2015</li>
 				</ul>
 			</div>
-			<div="publications_research">
+			<div class="publications_research">
 				<h3>Publications &amp; Research</h3>
 				<ul>
 					<li>Survey of Current Business - August 2015</li>
@@ -112,16 +110,16 @@
 					<li>Improving the SNA Treatment of Transactions within Multinational Enterprises</li>
 				</ul>
 			</div>
-			<div="featured_video">
+			<div class="featured_video">
 				<h3>Featured Video</h3>
 				<iframe width="560" height="315" src="https://www.youtube.com/embed/19HY3ZuO-eo" frameborder="0" allowfullscreen></iframe>
 			</div>
-			<div="bea_chart_of_the_week">
+			<div class="bea_chart_of_the_week">
 				<h3>Chart of the Week</h3>
 				<img src="http://pjurquilla.github.io/img/gdp_large.gif">
 			</div>
 		</div>
-		<div="footer">
+		<div id="footer"> <!-- or change this to a <footer> element -->
 			<hr>
 			<p>Last modified 09/27/15</p>
 			<p>&copy; 2016 BEA.GOV</p>
